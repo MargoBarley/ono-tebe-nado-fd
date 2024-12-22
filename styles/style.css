@@ -74,7 +74,6 @@ address {
   position: relative;
   background-image: url("/images/cover.jpg");
   background-size: cover;
-  height: 757px;
 }
 
 .card-img {
