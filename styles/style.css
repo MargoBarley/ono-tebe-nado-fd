@@ -270,20 +270,25 @@ address {
 }
 
 .footer {
-  margin-top: 180px;
+  margin-top: 157px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  min-height: 180px;
+  padding-bottom: 80px;
+}
+.footer__menu {
+  display: inherit;
+  unicode-bidi: inherit;
 }
 
 .footer__menu-list-item {
   list-style: none;
   justify-self: center;
+  font-size: 18px;
+  line-height: 21.13px;
 }
 .footer__adress {
-  padding-left: 50px;
+  padding-left: 51px;
   justify-self: start;
-  max-height: 98px;
 }
 .footer__menu-link_active {
   text-decoration: none;
