@@ -78,7 +78,7 @@ address {
 .cover {
   min-height: 757px;
   position: relative;
-  background-image: url("/images/cover.jpg");
+  background-image: url("../images/cover.jpg");
   background-size: cover;
   background-position: center;
 }
