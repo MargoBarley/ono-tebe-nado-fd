@@ -252,14 +252,19 @@ address {
   padding-left: 47px;
   padding-right: 46px;
 }
+.about__text_content {
+  padding-left: 0.55em;
+  padding-right: 0.1em;
+}
 .about__title {
   text-transform: uppercase;
   font-size: 40px;
   font-weight: 700;
-  margin-top: 133px;
+  margin-top: 136px;
   margin-bottom: 100px;
 }
 .about__text {
+  line-height: 1.2em;
   font-size: 20px;
   margin-bottom: 24px;
 }
