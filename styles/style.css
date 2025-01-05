@@ -18,18 +18,30 @@ menu {
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
-  height: 293px;
+  height: auto;
+}
+
+.header__logo {
+  margin-top: 91px;
+  margin-bottom: 91px;
+}
+
+.header__logo-image {
+  width: 148px;
+  height: 107px;
+  background-position: center;
 }
 
 .header__menu {
   padding-inline-start: inherit;
   margin-left: 50px;
+  padding-bottom: 6px;
 }
 
 .header__links-list {
   display: flex;
   flex-direction: row;
-  column-gap: 31px;
+  column-gap: 34px;
 }
 
 .header__links-list-item {
@@ -45,18 +57,10 @@ menu {
   text-decoration: none;
 }
 
-.header__logo-image {
-  width: 148px;
-  height: 105px;
-  top: 92px;
-  left: 478px;
-}
-
 address {
   font-style: inherit;
   display: inherit;
   unicode-bidi: inherit;
-  justify-self: end;
   font-size: 18px;
   font-weight: 400;
   line-height: 24.3px;
