@@ -49,11 +49,12 @@ menu {
   line-height: 21.13px;
   font-weight: 400;
   list-style: circle;
-  text-decoration: underline;
 }
 
 .header__links-list-item_no-bullit {
   list-style: none;
+}
+.header__links-list-item_no-bullit a {
   text-decoration: none;
 }
 
