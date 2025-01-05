@@ -84,10 +84,6 @@ address {
   background-position: center;
 }
 
-.card-img {
-  position: absolute;
-}
-
 .overlay {
   position: absolute;
   background-color: rgba(0, 0, 0, 0.6);
@@ -136,6 +132,7 @@ address {
   line-height: 54px;
   word-spacing: 0.835em;
   text-transform: uppercase;
+  z-index: 5;
 }
 .bet-button {
   color: white;
@@ -152,8 +149,6 @@ address {
   padding-top: 12px;
   padding-bottom: 11px;
   padding-block: inherit;
-  border-width: inherit;
-  border-style: solid;
   border-image: inherit;
   border: solid white 1px;
 }
@@ -191,9 +186,12 @@ address {
   height: 100%;
 }
 .card {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
   position: relative;
   min-height: 596px;
-  min-width: 334px;
+  max-width: 334px;
   color: white;
   background-position: center;
   background-size: cover;
@@ -208,19 +206,21 @@ address {
   background-image: url("../images/card-lot-03.jpg");
 }
 .card__title {
+  position: inherit;
   font-weight: 700;
-  position: absolute;
   padding-inline: 40px;
   padding-top: 48px;
   text-decoration: underline;
   font-size: 22px;
   text-transform: uppercase;
+  line-height: 1.2em;
 }
 .card__text {
-  position: absolute;
+  position: relative;
   font-size: 20px;
   padding-inline: 40px;
-  bottom: 48px;
+  margin-bottom: 48px;
+  line-height: 1.2em;
 }
 .lots__look-more-link {
   font-size: 20px;
