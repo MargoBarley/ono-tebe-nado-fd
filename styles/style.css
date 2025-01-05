@@ -71,8 +71,9 @@ address {
 .header address {
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
-  margin-left: 184px;
+  margin-left: 187px;
   margin-right: 50px;
+  margin-bottom: 6px;
 }
 
 .cover {
@@ -132,8 +133,8 @@ address {
 .cover__description-text {
   font-size: 22px;
   color: white;
-  line-height: 51px;
-  word-spacing: 0.9em;
+  line-height: 54px;
+  word-spacing: 0.835em;
   text-transform: uppercase;
 }
 .bet-button {
@@ -144,11 +145,17 @@ address {
   justify-content: flex-end;
   background-color: transparent;
   z-index: 5;
-  margin-left: 107px;
+  margin-left: 108px;
+  margin-bottom: 3px;
   font-size: 22px;
   padding-inline: 31px;
   padding-top: 12px;
   padding-bottom: 11px;
+  padding-block: inherit;
+  border-width: inherit;
+  border-style: solid;
+  border-image: inherit;
+  border: solid white 1px;
 }
 
 .lots {
