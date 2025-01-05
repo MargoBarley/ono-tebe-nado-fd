@@ -95,12 +95,15 @@ address {
 }
 
 .cover__title {
-  position: absolute;
+  display: grid;
   letter-spacing: 0.3em;
-  top: 165px;
   color: white;
-  padding-inline: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
   width: 100%;
+  padding-top: 165px;
+  padding-bottom: 85px;
+  height: 656px;
 }
 .no-letter-spacing {
   letter-spacing: 0em;
@@ -114,6 +117,7 @@ address {
 }
 .aligned-text_center {
   text-align: center;
+  padding-left: 30px;
 }
 .aligned-text_right {
   text-align: right;
@@ -121,9 +125,8 @@ address {
 
 .cover__description {
   display: flex;
-  position: absolute;
   width: 100%;
-  padding-inline: 50px;
+  padding-left: 51px;
   bottom: 61px;
 }
 .cover__description-text {
