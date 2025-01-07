@@ -96,7 +96,7 @@ address {
   padding-right: 50px;
   width: 100%;
   padding-top: 165px;
-  padding-bottom: 85px;
+  padding-bottom: 86px;
 }
 .no-letter-spacing {
   letter-spacing: 0em;
@@ -107,6 +107,7 @@ address {
   z-index: 0;
   line-height: 115px;
   letter-spacing: 0.3em;
+  margin-bottom: 20px;
 }
 .aligned-text_center {
   text-align: center;
@@ -120,7 +121,6 @@ address {
   display: flex;
   width: 100%;
   padding-left: 51px;
-  bottom: 61px;
 }
 .cover__description-text {
   font-size: 22px;
